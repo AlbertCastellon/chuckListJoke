@@ -1,10 +1,11 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #D6D3D1;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+  
   align-items: center;
   height: 100vh;
 }
@@ -17,15 +18,36 @@ button {
   margin-top: 10px;
   padding: 8px 16px;
   font-size: 16px;
-  background-color: #007bff;
+
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #7F1D1D;
 }
 
+button {
+  background-color: #B91C1C;
 
+}
+ul {
+  list-style: none;
 
+}
+li {
+  width: 75%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+#clear {
+  background-color: #007bff;
+}
+#fetchJoke {
+  background-color: #007bff;
+}
